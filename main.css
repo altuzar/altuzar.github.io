@@ -1,6 +1,15 @@
 body {
-    margin: 60px auto;
+  background-color: black;
+  color: white;
+        margin: 60px auto;
     width: 70%;
+
+}
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
+  }
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
